@@ -42,3 +42,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
    ```sh
    $ cdk deploy Appsync-Lambda-DDB-Dev-AppSyncStack
    ```
+
+<!-- Reference -->
+[CDK_AppSync_GraphQL_API]:https://reposhub.com/javascript/misc/dabit3-cdk-graphql-backend.html
+[cdk_graphql_backend]:https://github.com/dabit3/cdk-graphql-backend
