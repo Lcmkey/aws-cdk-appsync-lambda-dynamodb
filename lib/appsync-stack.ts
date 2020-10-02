@@ -44,10 +44,12 @@ class AppSyncStack extends Stack {
         defaultAuthorization: {
           authorizationType: AuthorizationType.API_KEY,
           apiKeyConfig: {
+            name: `${prefix}-${stage}-API-Key`,
             expires: Expiration.after(Duration.days(365)),
+            description: "api key desc",
           },
         },
-        // additionalAuthorizationModes: []
+        // additionalAuthorizationModes: [],
       },
       xrayEnabled: true,
     });
